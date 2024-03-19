@@ -1,6 +1,8 @@
 package ejercicio4;
 
-public class Persona {
+import java.io.Serializable;
+
+public class Persona implements Serializable{
 
     //esta clase la tendras que haber definido antes 
     //minimo 4 atributos y un constructor para inicializar el objeto).
