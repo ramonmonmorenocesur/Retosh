@@ -24,11 +24,14 @@ public class Ejercicio4Nuestro {
 
     public static void main(String[] args) throws IOException {
     Persona[]personas=new Persona[1000];
-    Persona persona=new Persona ("jk","jk","jk",0);    
+    Persona persona = null;
+     persona=new Persona ("jk","jk","jk",0);    
     File directorio=new File("C://Users//RamonMorenoUrbaneja//Desktop//RETOS//retoUD5//src//ejercicio4//personas");
     directorio.mkdir();
     File personaActual = new File("C://Users//RamonMorenoUrbaneja//Desktop//RETOS//retoUD5//src//ejercicio4//personas//personaIncial.dat");
     ObjectOutputStream escritor = null;
+
+
     //flujo de salida
     try {
         escritor = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(personaActual)));
