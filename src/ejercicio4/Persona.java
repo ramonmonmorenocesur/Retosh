@@ -61,6 +61,6 @@ public class Persona implements Serializable{
     }
     @Override
     public String toString(){
-        return("[DNI"+ dni+" "+"NOMBRE:"+nombre+"]");
+        return("[DNI"+ dni+" "+"NOMBRE:"+nombre+"APELLIDO "+ apellidos+"EDAD "+edad  +   "]");
     }
 }

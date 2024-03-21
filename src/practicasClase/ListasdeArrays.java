@@ -1,4 +1,4 @@
-package teoriaUD5;
+package practicasClase;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ public class ListasdeArrays {
 
  List<String[]> listaPalabras = new ArrayList<String[]>();
 
-        listaPalabras.
+        
 
     }
     
